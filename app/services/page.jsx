@@ -45,7 +45,7 @@ const services = () => {
 
           {Services.map((service, index)=> {
             return <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
-              <div className="w-full flex just. items-center">
+              <div className="w-full flex items-center gap-60">
                 <div className="text-5xl font-extrabold text-outline
                  text-transparent  group-hover:text-luke transition-all
                  duration-500">
